@@ -59,5 +59,10 @@ Extra info:
 There are two Make Art's version in the Kano Kit.
 
 1. `ls usr/bin/kano-draw` : this version is preinstalled and anything in this directory will be automatically found.
+    
+     to run the default version use `/home/<nameUser>/make-art` 
+    
+    eg =>`/home/laura/make-art`
 
 2. `./make-art/bin/kano-draw` : this version is use to modify make art locally which can then be sync `rsync -av --exclude='*/.git' --exclude='*/www/js/vendor' --exclude='*/node_modules' make-art "laura@172.16.254.180:~/"` and tested in the kano-kit
+    * to run the locally version of the kano-kit use `./bin/kano-draw`
