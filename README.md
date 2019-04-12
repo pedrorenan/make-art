@@ -53,3 +53,11 @@ Art.
 
     user@kano-os ~ $ cd ~/make-art/bin
     user@kano-os ~ $ ./kano-draw
+
+Extra info:
+
+There are two Make Art's version in the Kano Kit.
+
+1. `ls usr/bin/kano-draw` : this version is preinstalled and anything in this directory will be automatically found.
+
+2. `./make-art/bin/kano-draw` : this version is use to modify make art locally which can then be sync `rsync -av --exclude='*/.git' --exclude='*/www/js/vendor' --exclude='*/node_modules' make-art "laura@172.16.254.180:~/"` and tested in the kano-kit
